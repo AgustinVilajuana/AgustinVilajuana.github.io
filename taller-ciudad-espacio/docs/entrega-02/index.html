@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Encargo 01 - Tema - Agustín Vilajuana</title>
+  <title>Encargo 02 - Dibujos - Agustín Vilajuana</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://agustinvilajuana.github.io/taller-ciudad-espacio/favicon.png">
@@ -98,11 +98,11 @@
       <a href="https://agustinvilajuana.github.io/taller-ciudad-espacio/docs/markdown/">Ejemplos Markdown</a>
     </li>
     
-    <li class="active ">
+    <li class="">
       <a href="https://agustinvilajuana.github.io/taller-ciudad-espacio/docs/entrega-01/">Encargo 01 - Tema</a>
     </li>
     
-    <li class="">
+    <li class="active ">
       <a href="https://agustinvilajuana.github.io/taller-ciudad-espacio/docs/entrega-02/">Encargo 02 - Dibujos</a>
     </li>
     
@@ -129,9 +129,25 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Encargo 01 - Tema</h1>
+<h1 class="title">Encargo 02 - Dibujos</h1>
 <div class="content ">
-  <h1 id="tema">Tema</h1>
+  <h1 id="dibujos">Dibujos</h1>
+
+<iframe id='pdf-hugo' src='/taller-ciudad-espacio/pdf/Encargo-1.pdf'
+frameborder="0" scrolling="yes" seamless="seamless" style="display:block; width:100%; height:60vh;"></iframe>
+
+<button onclick="myFunction('pdf-hugo')" class="button button-primary mb-2" style="width: 100%;">Ver Pantalla Completa</button>
+
+<script>
+    function myFunction(id) {
+      document.getElementById(id).classList.add("full-screen");
+    }
+    document.addEventListener('keydown', function(event){
+	if(event.key === "Escape"){
+        document.getElementById('pdf-hugo').classList.remove("full-screen");
+	}
+});
+</script>
 
 </div>
 </div>
